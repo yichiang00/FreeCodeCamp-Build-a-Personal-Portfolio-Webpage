@@ -108,6 +108,7 @@ img.websitepic{
 	color: black;
 	padding-right: 20px;
 
+
 }
 .headlinebtn{
 	background-color: #3ccbea;
@@ -118,7 +119,17 @@ img.websitepic{
 margin: 0 auto;
 
 }
-.headerpic{
-	background: url("../img/photo1.jpg");
-	width: 100%;
-	padding:20%;
+.middlepic{
+	background: url("../img/photo2.jpg");
+	background-size: cover;;
+	background-repeat: no-repeat;
+	color: white;
+	margin: auto;
+
+}
+.middlepic h3,.middlepic p{
+	font-family: fantasy;
+	padding:40px;
+	font-size:36px;
+width: 90%;
+}
