@@ -20,9 +20,8 @@ body {
 ================================ */
 
 .glyphicon {
-	font-size: 3em;
-	display: block;
-	text-align: center;
+	font-size:2em;
+display: inline;
 	color: rgba(58,135,173,1);
 }
 
@@ -102,13 +101,15 @@ img.websitepic{
 /*About page*/
 #myCarousel2{
 	background:url("../img/photo0.jpg");
-	padding: 25%;
 	background-size: cover;
 	width: 100%;
-	color: black;
-	padding-right: 20px;
+	color: white;
 
 
+}
+#myCarousel2 h3, #myCarousel2 p{
+	padding: 20px 60px;
+	width: 60%;
 }
 .headlinebtn{
 	background-color: #3ccbea;
@@ -119,17 +120,42 @@ img.websitepic{
 margin: 0 auto;
 
 }
-.middlepic{
+/*.middlepic{
 	background: url("../img/photo2.jpg");
 	background-size: cover;;
 	background-repeat: no-repeat;
 	color: white;
-	margin: auto;
+	padding: 10%;
+ opacity: 0.5;
+}*/
 
-}
-.middlepic h3,.middlepic p{
+
+/*.middlepic h3,.middlepic p{
 	font-family: fantasy;
-	padding:40px;
+
 	font-size:36px;
 width: 90%;
+}*/
+
+.my-container {
+    position: relative;
+    overflow: hidden;
+}
+.my-container h1{
+	padding: 20px 40px;
+    position: relative;
+    z-index: 2;
+		color: white;
+		font-family: fantasy;
+		letter-spacing: 1px;
+		line-height: 70px;
+
+}
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
 }
