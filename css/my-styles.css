@@ -118,3 +118,7 @@ img.websitepic{
 margin: 0 auto;
 
 }
+.headerpic{
+	background: url("../img/photo1.jpg");
+	width: 100%;
+	padding:20%;
