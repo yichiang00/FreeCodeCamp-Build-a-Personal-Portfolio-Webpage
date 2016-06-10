@@ -44,17 +44,29 @@ body {
 	padding-bottom: 250px;
 	background-attachment: fixed;
 	background-position: -20px -400px;
-}
+	opacity: 50%;
+	color: white;
+	letter-spacing: 2px;
+	font-family: monospace;
+ }
 #myCarousel1{
 	background: url("../img/slide3.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
-	padding-bottom: 250px;
+	padding-bottom: 300px;
 	background-attachment: fixed;
-background-position: 0px -300px;
-
+	background-position: -20px -400px;
+	color: white;
 }
 
+div.item h1,div.item p{
+	width: 80%;
+	text-align: left;
+}
+div.item p{
+
+font-size: 3rem;
+}
 .carousel-inner h1,p{
 	/*color: white;*/
 }
@@ -65,9 +77,11 @@ background-position: 0px -300px;
 	z-index: -1;
 }*/
 
-.websitepic{
+img.websitepic{
 	width: 80%;
 	height: 120px;
+	display: block;
+	margin: 0 auto;
 }
 .socialicon{
 	display: block;
@@ -75,10 +89,32 @@ background-position: 0px -300px;
 	margin-left: auto;
 	margin-right: auto;
 }
+.social{
+	background-color: #3ccbea;;
+}
+.pagedivider{
+	color: white;
+	border-color: #3ccbea;
+	border-style: inset;
+	background-color: #3ccbea;
+	text-align: center;
+}
 /*About page*/
-.mybackground{
-	background:linear-gradient(to right, yellow,#ccffcc);
-	opacity: 50%;
+#myCarousel2{
+	background:url("../img/photo0.jpg");
+	padding: 25%;
+	background-size: cover;
+	width: 100%;
 	color: black;
-	padding-bottom: 200px;
+	padding-right: 20px;
+
+}
+.headlinebtn{
+	background-color: #3ccbea;
+}
+.details{
+	width: 50%;
+	display: block;
+margin: 0 auto;
+
 }
