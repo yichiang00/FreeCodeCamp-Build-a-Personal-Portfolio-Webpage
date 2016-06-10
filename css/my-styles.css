@@ -44,11 +44,19 @@ body {
 	padding-bottom: 250px;
 	background-attachment: fixed;
 	background-position: -20px -400px;
+}
+#myCarousel1{
+	background: url("../img/slide3.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding-bottom: 250px;
+	background-attachment: fixed;
+background-position: 0px -300px;
 
 }
 
 .carousel-inner h1,p{
-	color: white;
+	/*color: white;*/
 }
 /*.slideshow{
 	width: 100%;
@@ -66,4 +74,11 @@ body {
 	width: 25%;
 	margin-left: auto;
 	margin-right: auto;
+}
+/*About page*/
+.mybackground{
+	background:linear-gradient(to right, yellow,#ccffcc);
+	opacity: 50%;
+	color: black;
+	padding-bottom: 200px;
 }

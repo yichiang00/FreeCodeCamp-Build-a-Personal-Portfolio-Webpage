@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yi Chiang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-muted" href="#">Student of Epicodus</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">  <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Yi</a></li>
+              <li class="dropdown">
+                <a data-toggle="dropdown" data-target="#">Learn more<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="photo.html">Photo</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li class="divider"></li>
+                  <li><a href="feedback.html">Feedback</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End navbar -->
+
+    <div id="myCarousel1" class="carousel slide jumbotron">
+
+      <div class="container">
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <!-- <img class="slideshow"src="img/slide1.jpg"> -->
+            <h1>I will talk about myself</h1>
+            <p class="lead"> Reason of learning programming. Moving to aforgien country </p>
+            <p class="btn-group">
+              <a class="btn btn-success btn-lg" href="#">Country</a>
+              <a class="btn btn-success btn-lg" href="#">Experience</a>
+              <a class="btn btn-success btn-lg" href="#">Resume</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-content" style="max-width:1200px">
+      <img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
+      <img class="mySlides" src="img_fjords_wide.jpg" style="width:100%">
+      <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
+
+      <div class="w3-row-padding w3-section">
+        <div class="w3-col s4">
+          <img class="demo w3-border w3-hover-shadow" src="img_nature_wide.jpg" style="width:100%" onclick="currentDiv(1)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-border w3-hover-shadow" src="img_fjords_wide.jpg" style="width:100%" onclick="currentDiv(2)">
+        </div>
+        <div class="w3-col s4">
+          <img class="demo w3-border w3-hover-shadow" src="img_mountains_wide.jpg" style="width:100%" onclick="currentDiv(3)">
+        </div>
+      </div>
+    </div>
+
+
+
+      <div class="pull-right">
+        <p>&copy; 2016 Yi.</p>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/photo.js"></script>
+  </body>
+</html>
