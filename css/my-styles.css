@@ -52,23 +52,23 @@ display: inline;
 	background: url("../img/slide3.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
-	padding-bottom: 300px;
+	padding-bottom: 100px;
 	background-attachment: fixed;
 	background-position: -20px -400px;
 	color: white;
+  margin-bottom: 0;
 }
 
 div.item h1,div.item p{
-	width: 80%;
+
 	text-align: left;
+	padding: 20px 60px;
+	width: 60%;
 }
 div.item p{
-
 font-size: 3rem;
 }
-.carousel-inner h1,p{
-	/*color: white;*/
-}
+
 /*.slideshow{
 	width: 100%;
 	position: absolute;
@@ -105,21 +105,19 @@ img.websitepic{
 	width: 100%;
 	color: white;
 	opacity: 0.8;
-
-
+	padding-top: 224px;
 }
-#myCarousel2 h3, #myCarousel2 p{
+/*#myCarousel2 h3, #myCarousel2 p{
 	padding: 20px 60px;
 	width: 60%;
-}
+}*/
 .headlinebtn{
 	background-color: #3ccbea;
 }
 .details{
 	width: 50%;
 	display: block;
-margin: 0 auto;
-
+	margin: 0 auto;
 }
 /*.middlepic{
 	background: url("../img/photo2.jpg");
@@ -164,7 +162,8 @@ width: 90%;
 {
 	color: white;
 }
+
+
 .experience img{
 	width: 100%;
-
 }
